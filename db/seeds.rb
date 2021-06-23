@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Note.find_or_create_by(content: "This is the first note")
+Note.find_or_create_by(content: "This is the second note")
+Note.find_or_create_by(content: "This is the third note")
+Note.find_or_create_by(content: "This is the fourth note")
